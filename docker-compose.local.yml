@@ -1,0 +1,13 @@
+services:
+  nginx:
+    container_name: nginx_local
+    ports:
+      - "8080:80"
+
+  php:
+    container_name: php_local
+
+  mysql:
+    container_name: mysql_local
+    ports:
+      - "3307:3306"
